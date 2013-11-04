@@ -34,12 +34,21 @@ class AnimalGuess extends PolymerElement {
   
   void YBranch()
   {
-    getQuestionById(yBranch);
-    qid=yBranch;
+    if(yBranch==-1 && nBranch==-1) // No more guesses and I guessed it!
+    {
+      qid=yBranch;
+      question="I made it!";
+    }
+    else
+    {
+      getQuestionById(yBranch);
+      qid=yBranch;
+    }
   }
   
   void NBranch()
   {
+    
     getQuestionById(nBranch);
     qid=nBranch;
   }

@@ -51,3 +51,4 @@ nb-configuration.xml
 # Dart lock files and packages
 *.lock
 packages
+*.buildlog

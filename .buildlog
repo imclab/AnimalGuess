@@ -290,3 +290,8 @@ build.dart --machine --changed=web\animalguessclass.dart
 
 build.dart finished [1376 ms]
 
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1578 ms]
+
