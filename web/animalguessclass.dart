@@ -13,8 +13,13 @@ class AnimalGuess extends PolymerElement {
   @published int qid=1;
   int yBranch;
   int nBranch;
+  @published bool win=false;
+  @published bool lost=false;
 
   AnimalGuess.created() : super.created() {
+    // The below 2 lines make sure the Bootstrap CSS will be applied
+    var root = getShadowRoot("animal-guess");
+    root.applyAuthorStyles = true;
   }
 
   void newGame() {
@@ -34,10 +39,9 @@ class AnimalGuess extends PolymerElement {
   
   void YBranch()
   {
-    if(yBranch==-1 && nBranch==-1) // No more guesses and I guessed it!
+    if(yBranch==-1 && nBranch==-1) // No more questions to ask and I guessed it!
     {
-      qid=yBranch;
-      question="I made it!";
+      win=true;
     }
     else
     {
@@ -48,7 +52,10 @@ class AnimalGuess extends PolymerElement {
   
   void NBranch()
   {
-    
+    if(yBranch==-1 && nBranch ==-1) //No more questions to ask and I did not make it. 
+    {
+      lost=true; // Show the input area for more questions
+    }
     getQuestionById(nBranch);
     qid=nBranch;
   }

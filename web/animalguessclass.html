@@ -1,18 +1,37 @@
-<polymer-element name="animal-guess">
-  <template>
-    <div class="container">
-      <p>Let's get started!</p>
-      <button on-click="{{newGame}}">Click me</button><br>
-      <div class="row">
-        <div class="col-md-6">
-        {{qid}}. {{question}}
-        </div>
-        <div class="col-md-6">
-        <a href="#" on-click="{{YBranch}}">Yes</a>&nbsp;&nbsp;<a href="#" on-click="{{NBranch}}">No</a>
-        </div>
-      </div>
-    </div>
+<polymer-element name="animal-guess"> <template>
+<link rel="stylesheet" href="css/bootstrap.css">
+
+
+<div class="container">
+  <template if="{{!gameinprogress}}">
+  <h3>Let's get started!</h3>
+  <button on-click="{{newGame}}">Click me</button>
+
   </template>
-  <script type="application/dart" src="animalguessclass.dart"></script>
-</polymer-element>
+  <template if="{{gameinprogress}}">
+  <h3>Game in progress...</h3>
+  </template>
+  <template if="{{gameinprogress}}">
+  <div class="row">
+    <div class="col-md-6">{{qid}}. {{question}}</div>
+    <div class="col-md-6">
+      <a href="#" on-click="{{YBranch}}">Yes</a>&nbsp;&nbsp;<a href="#"
+        on-click="{{NBranch}}">No</a>
+    </div>
+  </div>
+  <template if="{{win}}">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h3>I win! Congratulate me!</h3>
+    </div>
+  </div>
+  </template> <template if="{{lost}}">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h3>You got me! Please help me to improve my knowledge.</h3>
+    </div>
+  </div>
+  </template> </template>
+</div>
+</template> <script type="application/dart" src="animalguessclass.dart"></script> </polymer-element>
 
