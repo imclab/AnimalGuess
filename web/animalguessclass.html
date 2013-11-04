@@ -1,0 +1,18 @@
+<polymer-element name="animal-guess">
+  <template>
+    <div class="container">
+      <p>Let's get started!</p>
+      <button on-click="{{newGame}}">Click me</button><br>
+      <div class="row">
+        <div class="col-md-6">
+        {{qid}}. {{question}}
+        </div>
+        <div class="col-md-6">
+        <a href="#" on-click="{{YBranch}}">Yes</a>&nbsp;&nbsp;<a href="#" on-click="{{NBranch}}">No</a>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script type="application/dart" src="animalguessclass.dart"></script>
+</polymer-element>
+

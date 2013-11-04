@@ -1,0 +1,4 @@
+name: AnimalGuess
+description: A sample Polymer application
+dependencies:
+    polymer: any

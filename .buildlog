@@ -1,0 +1,282 @@
+---
+build.dart --machine --changed=pubspec.yaml --changed=web\animalguess.css --changed=web\animalguess.html --chan...
+
+build.dart finished [4454 ms]
+
+---
+build.dart --machine --changed=web\animalguess.html
+[{"method":"error","params":{"file":"web/animalguess.html","message":"couldn't find imported asset \"web/animalguessclass.html\" in package \"AnimalGuess\".","line":10,"charStart":207,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/animalguess.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":520,"charEnd":545}}]
+build.dart finished [2077 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart --removed=web\clickcounter.dart
+[{"method":"error","params":{"file":"web/animalguess.html","message":"couldn't find imported asset \"web/animalguessclass.html\" in package \"AnimalGuess\".","line":10,"charStart":207,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/animalguess.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":520,"charEnd":545}}]
+build.dart finished [2193 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html --removed=web\clickcounter.html
+
+build.dart finished [2199 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [2311 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+[{"method":"warning","params":{"file":"web/animalguess.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":520,"charEnd":545}}]
+build.dart finished [1826 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+[{"method":"warning","params":{"file":"web/animalguess.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":520,"charEnd":545}}]
+build.dart finished [2304 ms]
+
+---
+build.dart --machine --changed=web\animalguess.html
+
+build.dart finished [2030 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1977 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1748 ms]
+
+---
+build.dart --machine --changed=web\css\bootstrap.css
+
+build.dart finished [2592 ms]
+
+---
+build.dart --machine --changed=web\animalguess.html
+
+build.dart finished [1963 ms]
+
+---
+build.dart --machine --changed=web\animalguess.html
+
+build.dart finished [2542 ms]
+
+---
+build.dart --machine --changed=web\animalguess.html
+
+build.dart finished [2479 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [2259 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1523 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [2254 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [3436 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [2185 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [2267 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [2194 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [1748 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [1804 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1875 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [1717 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [1504 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [2302 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1956 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [2063 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1985 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1524 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1973 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1530 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [2045 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1521 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1725 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1901 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1715 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [4468 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [2253 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1768 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1905 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1577 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1553 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1548 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [2253 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [1512 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1996 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [2047 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [2312 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [2114 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [2195 ms]
+
+---
+build.dart --machine --changed=LICENSE --changed=README.md --changed=animalguess.css.!sync --changed=animalgues...
+
+build.dart finished [1354 ms]
+
+---
+build.dart --machine --changed=README.md --removed=README
+
+build.dart finished [1456 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [2619 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1925 ms]
+
