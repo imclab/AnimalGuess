@@ -280,3 +280,13 @@ build.dart --machine --changed=README.md
 
 build.dart finished [1925 ms]
 
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1687 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1376 ms]
+

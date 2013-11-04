@@ -52,6 +52,11 @@ class AnimalGuess extends PolymerElement {
       question=res['q'];
       yBranch=res['y'];
       nBranch=res['n'];
+      
+      if (yBranch==-1 && nBranch==-1) // No more branches and we have reached the "guess"
+      {
+        question='Is it a/an $question?';
+      }
     }
   }
 }
