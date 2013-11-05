@@ -6,19 +6,23 @@
   <template if="{{!gameinprogress}}">
   <h3>Let's get started!</h3>
   <button on-click="{{newGame}}">Click me</button>
-
   </template>
+  
   <template if="{{gameinprogress}}">
   <h3>Game in progress...</h3>
   </template>
+  
   <template if="{{gameinprogress}}">
   <div class="row">
     <div class="col-md-6">{{qid}}. {{question}}</div>
+    <template if="{{!reachedend}}">
     <div class="col-md-6">
       <a href="#" on-click="{{YBranch}}">Yes</a>&nbsp;&nbsp;<a href="#"
         on-click="{{NBranch}}">No</a>
     </div>
+    </template>
   </div>
+  </template>
   <template if="{{win}}">
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
@@ -31,7 +35,7 @@
       <h3>You got me! Please help me to improve my knowledge.</h3>
     </div>
   </div>
-  </template> </template>
+  </template>
 </div>
 </template> <script type="application/dart" src="animalguessclass.dart"></script> </polymer-element>
 

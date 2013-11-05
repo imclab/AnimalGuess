@@ -473,3 +473,126 @@ build.dart --machine --changed=web\animalguess.html
 
 build.dart finished [1626 ms]
 
+---
+build.dart --machine --removed=animalguessclass.dart.!sync
+
+build.dart finished [1405 ms]
+
+---
+build.dart --machine --removed=animalguess.css.!sync --removed=animalguess.html.!sync --removed=animalguessclas...
+
+build.dart finished [1126 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1391 ms]
+
+---
+build.dart --machine --changed=web - Shortcut.lnk
+
+build.dart finished [1453 ms]
+
+---
+build.dart --machine --changed=web\packages - Shortcut.lnk
+
+build.dart finished [1150 ms]
+
+---
+build.dart --machine --changed=web\packages.lnk --removed=web\packages - Shortcut.lnk
+
+build.dart finished [1132 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1141 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+[{"method":"warning","params":{"file":"web/animalguessclass.html","message":"Unexpected end tag (template). Ignored.","line":20,"charStart":626,"charEnd":637}}]
+[{"method":"warning","params":{"file":"web/animalguessclass.html","message":"End tag (div) seen too early. Expected other end tag.","line":22,"charStart":651,"charEnd":657}}]
+[{"method":"warning","params":{"file":"web/animalguessclass.html","message":"Unexpected end tag (template). Ignored.","line":20,"charStart":626,"charEnd":637}}]
+[{"method":"warning","params":{"file":"web/animalguessclass.html","message":"End tag (div) seen too early. Expected other end tag.","line":22,"charStart":651,"charEnd":657}}]
+build.dart finished [1193 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [1354 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1133 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1368 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1124 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1312 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1134 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [1127 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1219 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [1118 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1159 ms]
+
+---
+build.dart --machine --removed=web\packages.lnk
+
+build.dart finished [1664 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart.js --changed=web\animalguessclass.dart.js.deps --chang...
+
+build.dart finished [1538 ms]
+
+---
+build.dart --machine --removed=web\animalguessclass.dart.js --removed=web\animalguessclass.dart.js.deps --remov...
+
+build.dart finished [1448 ms]
+
+---
+build.dart --machine --removed=web\animalguess.css
+
+build.dart finished [1372 ms]
+

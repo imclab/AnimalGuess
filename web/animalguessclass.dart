@@ -15,6 +15,7 @@ class AnimalGuess extends PolymerElement {
   int nBranch;
   @published bool win=false;
   @published bool lost=false;
+  @published bool reachedend=false;
 
   AnimalGuess.created() : super.created() {
     // The below 2 lines make sure the Bootstrap CSS will be applied
@@ -24,7 +25,10 @@ class AnimalGuess extends PolymerElement {
 
   void newGame() {
     gameinprogress=true;
-    
+    win=false;
+    lost=false;
+    reachedend=false;
+    qid=1;
     getQuestionById(qid);
   }
   
@@ -42,6 +46,8 @@ class AnimalGuess extends PolymerElement {
     if(yBranch==-1 && nBranch==-1) // No more questions to ask and I guessed it!
     {
       win=true;
+      reachedend=true;
+      gameinprogress=false;
     }
     else
     {
@@ -55,9 +61,13 @@ class AnimalGuess extends PolymerElement {
     if(yBranch==-1 && nBranch ==-1) //No more questions to ask and I did not make it. 
     {
       lost=true; // Show the input area for more questions
+      reachedend=true;
     }
-    getQuestionById(nBranch);
-    qid=nBranch;
+    else
+    {      
+      getQuestionById(nBranch);
+      qid=nBranch;
+    }
   }
   
   void requestComplete(HttpRequest req)
@@ -75,5 +85,10 @@ class AnimalGuess extends PolymerElement {
       }
     }
   }
+}
+
+void main()
+{
+  
 }
 
