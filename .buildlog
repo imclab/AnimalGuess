@@ -596,3 +596,1040 @@ build.dart --machine --removed=web\animalguess.css
 
 build.dart finished [1372 ms]
 
+---
+build.dart --machine --changed=web\animalguessclass.html
+
+build.dart finished [1826 ms]
+
+---
+build.dart --machine --changed=web\animalguess.html --changed=web\css\bootstrap.css
+
+build.dart finished [1310 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+
+build.dart finished [1306 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [591 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [409 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [662 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [411 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [319 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1068 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1107 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1127 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [977 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [567 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [566 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [316 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [316 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [313 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1224 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1129 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [580 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [319 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [319 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [339 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [327 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1425 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1143 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [632 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [318 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [323 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [320 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [421 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [317 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [568 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1943 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1156 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [318 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [321 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [318 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [316 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [313 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [548 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [340 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [398 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [337 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [322 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [321 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [642 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [324 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [322 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [319 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [348 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [317 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1265 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [327 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [480 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [330 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [322 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.dart
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [1085 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [315 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [323 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [331 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [326 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [332 ms]
+
+---
+build.dart --machine --changed=web\animalguess.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [349 ms]
+
+---
+build.dart --machine --changed=web\css\animal.cs.css
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [381 ms]
+
+---
+build.dart --machine --changed=web\css\animal.css --removed=web\css\animal.cs.css
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [321 ms]
+
+---
+build.dart --machine --changed=web\css\animal.css
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [331 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [328 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [328 ms]
+
+---
+build.dart --machine --changed=web\css\animal.css
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [445 ms]
+
+---
+build.dart --machine --changed=web\css\animal.css
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [339 ms]
+
+---
+build.dart --machine --changed=web\css\animal.css
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [340 ms]
+
+---
+build.dart --machine --changed=web\css\animal.css
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [328 ms]
+
+---
+build.dart --machine --changed=web\css\animal.css
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [329 ms]
+
+---
+build.dart --machine --changed=web\css\animal.css
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [314 ms]
+
+---
+build.dart --machine --changed=web\animalguessclass.html
+Unhandled exception:
+'package:polymer/builder.dart': Error: line 320 pos 43: type 'Options' is not loaded
+    res = parser.parse(args == null ? new Options().arguments : args);
+                                          ^
+malformed type used.
+#0      parseOptions (package:polymer/builder.dart:320:43)
+#1      parseOptions (package:polymer/builder.dart:321:5)
+#2      _options (package:polymer/builder.dart:259:31)
+#3      build (package:polymer/builder.dart:116:42)
+#4      main (file:///E:/My Books/Sitepoint/AnimalGuess/build.dart:4:8)
+build.dart finished [334 ms]
+

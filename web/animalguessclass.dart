@@ -16,6 +16,11 @@ class AnimalGuess extends PolymerElement {
   @published bool win=false;
   @published bool lost=false;
   @published bool reachedend=false;
+  @published String myanimal='';
+  @published String mybranch='';
+  @published String youranimal='';
+  @published String newquestion='';
+  @published bool wronginput=false;
 
   AnimalGuess.created() : super.created() {
     // The below 2 lines make sure the Bootstrap CSS will be applied
@@ -62,6 +67,7 @@ class AnimalGuess extends PolymerElement {
     {
       lost=true; // Show the input area for more questions
       reachedend=true;
+      myanimal=question;
     }
     else
     {      
@@ -85,10 +91,26 @@ class AnimalGuess extends PolymerElement {
       }
     }
   }
+  
+  void submitForm(Event e)
+  {
+    //e.preventDefault();
+    var path;
+    
+    if(mybranch.toLowerCase()=='y'||mybranch.toLowerCase()=='yes') // Y to my guessed animal, N to the animal in player's mind
+    {
+      path='http://rsywx/app_dev.php/animal/setNewQuestion/$qid/$newquestion/$myanimal/$youranimal';
+    }
+    else if (mybranch.toLowerCase()=='n'||mybranch.toLowerCase()=='no')
+    {
+      path='http://rsywx/app_dev.php/animal/setNewQuestion/$qid/$newquestion/$youranimal/$myanimal';
+    }
+    else // Not recognized answer
+    {
+      wronginput=true;
+    }
+    return;
+  }
 }
 
-void main()
-{
-  
-}
 
