@@ -9,3 +9,16 @@ If the guess if correct (assuming the user does not change his mind during the g
 As time goes by, the game will become "smarter" as it will ask more questions before it prompts the guess. 
 
 This program is developed with PHP (Symfony 2 framework) and Dart. PHP is used as the RESTful API provider (the server) and Dart used to mimic a frontend. 
+
+**Note**: This is not a perfect program. A few improvements are to be considered:
+
+1. Should use radio buttons to accept Y/N answers for a new question.
+2. For some odd reason -- most likely from Symfony, the question can't be ended with a question mark ("?").
+
+Enjoy and drop me an email if you feel it fun!
+
+Sincerely, 
+
+TR@SOE
+http://www.rsywx.net
+Google Plus: https://plus.google.com/+TaylorRen
