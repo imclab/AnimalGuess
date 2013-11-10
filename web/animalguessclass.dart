@@ -10,6 +10,7 @@ import 'dart:convert';
 class AnimalGuess extends PolymerElement {
   @published bool gameinprogress=false;
   @published String question='';
+  @published String myguess='';
   @published int qid=1;
   int yBranch;
   int nBranch;
@@ -20,7 +21,8 @@ class AnimalGuess extends PolymerElement {
   @published String mybranch='';
   @published String youranimal='';
   @published String newquestion='';
-  @published bool wronginput=false;
+  @published bool wronganswer=false;
+  @published bool wrongquestion=false;
 
   AnimalGuess.created() : super.created() {
     // The below 2 lines make sure the Bootstrap CSS will be applied
@@ -67,7 +69,7 @@ class AnimalGuess extends PolymerElement {
     {
       lost=true; // Show the input area for more questions
       reachedend=true;
-      myanimal=question;
+      myanimal=myguess;
     }
     else
     {      
@@ -81,36 +83,67 @@ class AnimalGuess extends PolymerElement {
     if (req.status==200)
     {
       Map res=JSON.decode(req.responseText);
-      question=res['q'];
+      myguess=res['q'];
       yBranch=res['y'];
       nBranch=res['n'];
       
       if (yBranch==-1 && nBranch==-1) // No more branches and we have reached the "guess"
       {
-        question='Is it a/an $question?';
+        question='Is it a/an $myguess?';
+      }
+      else
+      {
+        question=myguess;
       }
     }
   }
   
   void submitForm(Event e)
   {
-    //e.preventDefault();
     var path;
+    if(newquestion.endsWith('?'))
+    {
+      wrongquestion=true;
+      return;
+    }
+    else
+    {
+      wrongquestion=false;
+    }
     
     if(mybranch.toLowerCase()=='y'||mybranch.toLowerCase()=='yes') // Y to my guessed animal, N to the animal in player's mind
     {
+      wronganswer=false;
       path='http://rsywx/app_dev.php/animal/setNewQuestion/$qid/$newquestion/$myanimal/$youranimal';
     }
     else if (mybranch.toLowerCase()=='n'||mybranch.toLowerCase()=='no')
     {
+      wronganswer=false;
       path='http://rsywx/app_dev.php/animal/setNewQuestion/$qid/$newquestion/$youranimal/$myanimal';
     }
     else // Not recognized answer
     {
-      wronginput=true;
+      wronganswer=true;
+      return;
+    }
+    
+    if(!wronganswer && !wrongquestion)
+    {
+      var req=new HttpRequest();
+      req..open('GET', path)
+        ..onLoadEnd.listen((e)=>newQuestionComplete(req))
+          ..send('');
     }
     return;
   }
+  
+  void newQuestionComplete(req)
+  {
+    wronginput=false;
+    newGame();
+  }
 }
+
+
 
 
