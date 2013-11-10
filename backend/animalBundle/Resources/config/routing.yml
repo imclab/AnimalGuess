@@ -1,0 +1,23 @@
+tranimal_homepage:
+    pattern:  /animal
+    defaults: { _controller: tranimalBundle:Default:index }
+    
+tranimal_getNextQuestion:
+    pattern: /animal/getNextQuestion/{id}/{answer}
+    defaults: {_controller: tranimalBundle:Default:getNextQuestion}
+
+tranimal_getQuestionByID:
+    pattern: /animal/getQuestionById/{id}
+    defaults: { _controller: tranimalBundle:Default:getQuestionByID }
+    
+tranimal_setNewQuestion:
+    pattern: /animal/setNewQuestion/{id}/{question}/{animal1}/{animal2}
+    defaults: {_controller: tranimalBundle:Default:setNewQuestion}
+    
+tranimal_getMaxID:
+    pattern: /animal/getMaxID
+    defaults: {_controller: tranimalBundle:Default:getMaxID}
+    
+tranimal_getAnimalCount:
+    pattern: /animal/getAnimalCount
+    defaults: {_controller: tranimalBundle:Default:getAnimalCount}

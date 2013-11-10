@@ -1,0 +1,26 @@
+tr\animalBundle\Entity\Animal:
+    type: entity
+    repositoryClass: tr\animalBundle\Entity\AnimalRepository
+    table: animal
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+        question:
+            type: string
+            length: 140
+            fixed: false
+            nullable: true
+        yBranch:
+            type: integer
+            unsigned: false
+            nullable: true
+            column: y_branch
+        nBranch:
+            type: integer
+            unsigned: false
+            nullable: true
+            column: n_branch
+    lifecycleCallbacks: {  }
