@@ -20,5 +20,7 @@ Enjoy and drop me an email if you feel it fun!
 Sincerely, 
 
 TR@SOE
-http://www.rsywx.net
-Google Plus: https://plus.google.com/+TaylorRen
+
+Homepage: [http://www.rsywx.net](http://www.rsywx.net)
+
+Google Plus: [https://plus.google.com/+TaylorRen](https://plus.google.com/+TaylorRen)
